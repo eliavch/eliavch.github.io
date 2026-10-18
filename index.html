@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-zelda bg-black text-white">
+    <header class="z-[60] sticky top-0 ">
+        <nav class="relative z-[60] flex items-center justify-between backdrop-filter backdrop-blur-md bg-opacity-40 px-[90px] h-[90px]">
+            <div class="flex flex-row items-center gap-[60px]">
+                <img class="h-14 w-auto" src="nav/navbar-logo.svg" alt="home">
+                <ul class="flex flex-row gap-[64px] text-white text-[2rem]">
+                    <a class="hover:underline hover:text-[#F3B641]" href="#hero">
+                        home </a>
+                          <a class="hover:underline hover:text-[#F3B641]" href="#about">
+                        about </a>
+                          <a class="hover:underline hover:text-[#F3B641]" href="#skill">
+                        skill </a>
+                          <a class="hover:underline hover:text-[#F3B641]" href="#experience">
+                        experience </a>
+                </ul>
+            </div>
+
+            <div class="flex flex-row items-center gap-3">
+              <div class="flex flex-row items-center gap-[15px]">
+                <a href="https://x.com/HMSI_ITS" class="transition duration-200 ease-in-out hover:grayscale hover:opacity-70" target="_blank">
+                    <img class="w-11" src="nav/x-logo.svg" alt="X">
+                </a>
+                 <a href="https://www.tiktok.com/@hmsi_its" class="transition duration-200 ease-in-out hover:grayscale hover:opacity-70" target="_blank">
+                    <img class="w-11" src="nav/tiktok-logo.svg" alt="TikTok">
+                </a>
+                 <a href="https://www.instagram.com/hmsi_its" class="transition duration-200 ease-in-out hover:grayscale hover:opacity-70" target="_blank">
+                    <img class="w-11" src="nav/ig-logo.svg" alt="Instagram">
+                </a>
+                 <a href="https://www.youtube.com/@hmsiits" class="transition duration-200 ease-in-out hover:grayscale hover:opacity-70" target="_blank">
+                    <img class="w-11" src="nav/yt-logo.svg" alt="YouTube">
+                </a>
+              </div>   
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- hero -->
+        <section id="hero" class="bg-red-900 text-center py-24 md:py-32">
+            <div class="max-w-4xl mx-auto px-6">
+                <h1 class="font-zelda text-5xl md:text-7xl">Portfolio</h1>
+                <p class="mt-6 text-lg md:text-xl text-red-400">Risky Aditya</p>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about" class="text-center py-16 md:py-24">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="font-zelda text-3xl md:text-5xl">About</h2>
+                <p class="mt-8 text-lg md:text-xl leading-relaxed" lang="en">My name is Risky Aditya, I am a student at SMKN 1 Surabaya</p>
+            </div>
+        </section>
+
+        <!-- skill -->
+        <section id="skill" class="py-16 md:py-24">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="font-zelda text-3xl md:text-5xl text-center">Skill</h2>
+                <h3 class="font-zelda text-xl md:text-2xl mt-8 text-center">Saya tertarik belajar</h3>
+                <ul class="list-disc list-inside space-y-2 mt-4 text-lg md:text-xl text-center">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- experience -->
+        <section id="experience" class="py-16 md:py-24">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="font-zelda text-3xl md:text-5xl text-center">Experience</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 mt-8">
+                    <img class="w-full h-auto rounded-lg" src="image/foto1.png" alt="foto 1">
+                    <img class="w-full h-auto rounded-lg" src="image/foto2.png" alt="foto 2">
+                    <img class="w-full h-auto rounded-lg" src="image/foto3.png" alt="foto 3">
+                    <img class="w-full h-auto rounded-lg" src="image/foto4.png" alt="foto 4">
+                </div>
+            </div>
+        </section>
+        </body>
+    </main>
+    <!-- footer -->
+     <footer class="w-full sm:h-[500px] md:h-[350px] lg:h-[600px] bg-[url('footer/bg-footer.png')] bg-cover bg-center px-4 py-8 lg:px-[90px] lg:py-[88px] 
+     lg:border-t-[20px] lg:border-t-[#7A3D21] flex justify-center items-center">
+        <div class="flex flex-col sm:w-full h-[440px] md:w-170 lg:w-full lg:h-full  bg-[url('footer/frame-footer-mobile.png')]
+         md:bg-[url('footer/frame-footer-desktop.png')] bg-center bg-contain bg-no-repeat px-6 py-10 lg:px-[20px] lg:py-10 items-center justify-center ">
+            <!-- nav -->
+            <div class="flex flex-col lg:flex-row items-center justify-center gap-2 lg:gap-6">
+                    <a class="text-[#C07E4E] hover:text-[#F9DC4B] text-[1.5rem] lg:text-[32px]"href="#hero">home</a>
+                    <a class="text-[#C07E4E] hover:text-[#F9DC4B] text-[1.5rem] lg:text-[32px]"href="#about">about</a>
+                    <a class="text-[#C07E4E] hover:text-[#F9DC4B] text-[1.5rem] lg:text-[32px]"href="#skill">skill</a>
+                    <a class="text-[#C07E4E] hover:text-[#F9DC4B] text-[1.5rem] lg:text-[32px]"href="#experience">experience</a>
+            </div>
+
+            <!-- copyright -->
+             <p class="font-times font-bold text-[#F9DCB4] lg:text-[15px] lg:text-[20px] mt-4">&copy; SIMETRI HMSI 2026 </p>
+        </div>
+     </footer>
+     
+</body>
+</html>
